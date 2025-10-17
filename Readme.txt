@@ -32,7 +32,7 @@ Aplikasi ini menghitung **jumlah objek** dan **durasi keberadaan** setiap objek 
 ```bash
 git clone https://github.com/MFaisalBasri/yolo-visitor-analysis.git
 cd yolo-visitor-analysis
-
+```
 ## 🧱 Virtual Environment Setup
 
 Gunakan **Virtual Environment (venv)** agar dependensi proyek tidak bercampur dengan sistem global.
@@ -41,19 +41,18 @@ Gunakan **Virtual Environment (venv)** agar dependensi proyek tidak bercampur de
 
 ### 🪟 Windows
 
-```bash
 # 1. Buat virtual environment
 ```bash
 python -m venv venv
-
+```
 # 2. Aktifkan environment
 ```bash
 venv\Scripts\activate
-
+```
 # 3. Instal dependencies
 ```bash
 pip install -r requirements.txt
-
+```
 ## 📦 Wajib Download Dependencies
 
 Sebelum menjalankan program, pastikan kamu sudah menginstal library utama berikut:
@@ -62,4 +61,4 @@ Sebelum menjalankan program, pastikan kamu sudah menginstal library utama beriku
 pip install opencv-contrib-python
 pip install ultralytics
 pip install deep-sort-realtime
-
+```
