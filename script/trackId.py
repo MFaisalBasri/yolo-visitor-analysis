@@ -63,12 +63,6 @@ def main():
             cv2.putText(frame, label, (label_x + 3, label_y - 3),
                         font, font_scale, (255, 255, 255), thickness, cv2.LINE_AA)
 
-        # Tambahkan teks FPS video dan FPS berjalan (warna kuning)
-        # cv2.putText(frame, f"FPS Video: {video_fps:.2f}", (10, 30),
-        #             cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 255), 2)
-        # cv2.putText(frame, f"FPS Berjalan: {fps_berjalan:.2f}", (10, 60),
-        #             cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 255), 2)
-
         # Tampilkan frame
         cv2.imshow("Tracking ID", frame)
 

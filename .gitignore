@@ -6,4 +6,6 @@ runs/
 datasets/
 *.csv
 *.mp4
+*.mp4
+!assets/*.mp4
 *.avi
