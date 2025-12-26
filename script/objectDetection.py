@@ -17,7 +17,7 @@ cap.release()
 results = model.predict(
     source=video_path,
     stream=True,
-    device=0,
+    device="cpu",
     classes=[0],     # hanya manusia
     conf=0.3,
     show=False
