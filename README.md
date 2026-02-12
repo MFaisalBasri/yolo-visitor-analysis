@@ -62,3 +62,4 @@ pip install opencv-contrib-python
 pip install ultralytics
 pip install deep-sort-realtime
 ```
+
